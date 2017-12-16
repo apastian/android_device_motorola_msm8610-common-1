@@ -193,10 +193,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl \
     gps.msm8610
 
-# HIDL
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/manifest.xml:system/vendor/manifest.xml
-
 # Filesystem
 PRODUCT_PACKAGES += \
     setup_fs
