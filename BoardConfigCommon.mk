@@ -133,6 +133,10 @@ HAVE_SELINUX := true
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+
 # Storage & partiiton
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
