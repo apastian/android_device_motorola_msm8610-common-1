@@ -1,5 +1,2 @@
 # Partitions
-type logs_block_device, dev_type; 
-type cache_block_device, dev_type; 
-type persist_block_device, dev_type;
-type userdata_block_device, dev_type;
+type logs_block_device, dev_type;
