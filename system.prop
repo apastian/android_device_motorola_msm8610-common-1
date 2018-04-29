@@ -83,14 +83,12 @@ persist.radio.relay_oprt_change=1
 ro.use_data_netmgrd=true
 persist.data.qmi.adb_logmask=0
 
-<<<<<<< HEAD
+
 # Scheduler
 sys.io.scheduler=bfq
-=======
+
 # Shutdown timeout
-ro.build.shutdown_timeout=0
 persist.vendor.radio.add_power_save=1
->>>>>>> 53b8184... msm8916-common: enable radio power save
 
 # Storage
 ro.sys.sdcardfs=false
