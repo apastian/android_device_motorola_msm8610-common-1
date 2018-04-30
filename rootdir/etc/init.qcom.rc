@@ -27,7 +27,6 @@
 
 import init.qcom.usb.rc
 import init.device.rc
-import init.safailnet.rc
 
 on early-init
     # Create firmware mount point
