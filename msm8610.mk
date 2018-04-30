@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
-    init.safailnet.rc \
     ueventd.qcom.rc
 
 # These are the hardware-specific features
