@@ -10,7 +10,7 @@
     </hal>
     <hal format="hidl">
         <name>android.hardware.radio</name>
-        <transport arch="32">passthrough</transport>
+        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IRadio</name>
@@ -25,7 +25,7 @@
     </hal>
     <hal format="hidl">
         <name>android.hardware.radio.deprecated</name>
-        <transport arch="32">passthrough</transport>
+        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IOemHook</name>
