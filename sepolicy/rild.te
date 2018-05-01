@@ -6,4 +6,3 @@ allow rild sysfs_usb_supply:dir search;
 allow rild sysfs_usb_supply:file { open read };
 allow rild fsg_file:dir search;
 allow rild fsg_file:file r_file_perms;
-allow rild qcom_ims_prop:property_service { set };
