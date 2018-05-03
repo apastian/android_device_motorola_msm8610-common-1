@@ -1,17 +1,17 @@
 # Taken from victara MPE24.49-18
-bin/adsprpcd
+bin/adsprpcd:system/vendor/bin/adsprpcd
 bin/btnvtool
 bin/hci_qcomm_init
-bin/irsc_util
-bin/mm-qcamera-daemon
-bin/mpdecision
-bin/netmgrd
+bin/irsc_util:system/vendor/bin/irsc_util
+bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon
+bin/mpdecision:system/vendor/bin/mpdecision
+bin/netmgrd:system/vendor/bin/netmgrd
 bin/qmi_motext_hook
-bin/qmuxd
-bin/rfs_access
+bin/qmuxd:system/vendor/bin/qmuxd
+bin/rfs_access:system/vendor/bin/rfs_access
 bin/rild
-bin/rmt_storage
-bin/time_daemon
+bin/rmt_storage:system/vendor/bin/rmt_storage
+bin/time_daemon:system/vendor/bin/time_daemon
 lib/libactions_irservice_stm.so
 lib/libadropbox.so
 lib/libdmengine.so
@@ -86,8 +86,8 @@ vendor/lib/libtzplayready.so
 vendor/lib/libxml.so
 
 # Taken from otus LPC23.15-110
-bin/mm-qcamera-daemon
-bin/thermal-engine
+bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon
+bin/thermal-engine:system/vendor/bin/thermal-engine
 etc/firmware/a300_pfp.fw
 etc/firmware/a300_pm4.fw
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -126,7 +126,7 @@ vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 
 # Taken from seed N preview
-bin/qseecomd
+bin/qseecomd:system/vendor/bin/qseecomd
 vendor/lib/libQSEEComAPI.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
