@@ -7,10 +7,3 @@ allow rild sysfs_usb_supply:file { open read };
 allow rild fsg_file:dir search;
 allow rild fsg_file:file r_file_perms;
 allow rild system_data_file:sock_file create_file_perms;
-allow rild rild_exec:file execute_no_trans;
-allow rild rild:capability dac_override;
-allow rild system_file:file execute_no_trans;
-allow rild vendor_file:file { r_file_perms ioctl };
-allow rild wpa_socket:sock_file write;
-allow rild { mediaserver_service audioserver_service }:service_manager find;
-binder_use(rild)
