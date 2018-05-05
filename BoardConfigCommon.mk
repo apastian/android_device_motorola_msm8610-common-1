@@ -83,9 +83,13 @@ TARGET_PROVIDES_CAMERA_HAL := true
 
 # Charger
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/mmi_lpm/lpm_mode
-BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_NO_CHARGER_LED := true
+BOARD_CHARGING_CMDLINE_NAME  := "androidboot.mode"
+BOARD_CHARGING_CMDLINE_VALUE := "usb_chg"
+BACKLIGHT_PATH := "/sys/class/leds/lcd-backlight/brightness"
+BOARD_CHARGER_DISABLE_INIT_BLANK := true
+BLINK_PATH     := "/sys/class/leds/led:rgb_red/blink"
 
 # Display
 USE_OPENGL_RENDERER := true
