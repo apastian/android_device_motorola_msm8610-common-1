@@ -42,6 +42,9 @@ ro.qualcomm.bluetooth.nap=true
 ro.bluetooth.dun=true
 ro.qualcomm.bluetooth.map=true
 
+# Charger
+ro.enable_boot_charger_mode=1
+
 # Display
 ro.sf.lcd_density=240
 ro.hdmi.enable=true
