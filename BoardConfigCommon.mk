@@ -138,9 +138,6 @@ TARGET_RECOVERY_DENSITY := hdpi
 BOARD_HAS_NO_SELECT_BUTTON := true
 HAVE_SELINUX := true
 
-# RIL
-BOARD_PROVIDES_LIBRIL := true
-
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 include device/qcom/sepolicy/legacy-sepolicy.mk
