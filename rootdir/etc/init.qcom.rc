@@ -68,6 +68,10 @@ on fs
     # Start HW service manager early
     start hwservicemanager
 
+on property:sys.boot_completed=1
+    # Enable ZRAM on boot_complete
+    swapon_all fstab.qcom
+
 on late-fs
     # Start services for bootanim
     start surfaceflinger
@@ -77,7 +81,9 @@ on late-fs
 
     mount_all fstab.qcom --late
 
-    swapon_all fstab.qcom
+on post-fs 
+    # Allow writing to the kernel trace log.
+    chmod 0222 /sys/kernel/debug/tracing/trace_marker
 
     # Set permissions for BL logs
     chmod 0640 /dev/block/bootdevice/by-name/logs
