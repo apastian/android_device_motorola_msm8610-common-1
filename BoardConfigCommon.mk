@@ -99,6 +99,7 @@ BLINK_PATH     := "/sys/class/leds/led:rgb_red/blink"
 # Display
 USE_OPENGL_RENDERER := true
 TARGET_USES_ION := true
+SF_START_GRAPHICS_ALLOCATOR_SERVICE := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
