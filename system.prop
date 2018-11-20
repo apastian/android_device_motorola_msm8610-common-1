@@ -47,6 +47,7 @@ ro.enable_boot_charger_mode=1
 
 # Display
 ro.sf.lcd_density=240
+sys.use_fifo_ui=1
 ro.hdmi.enable=true
 debug.hwui.use_buffer_age=false
 ro.opengles.version=196608
