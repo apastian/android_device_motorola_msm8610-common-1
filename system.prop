@@ -70,7 +70,6 @@ media.stagefright.less-secure=true
 
 # treble
 camera.disable_treble=true
-persist.media.treble_omx=false
 
 # Qualcomm
 ro.qualcomm.cabl=0

@@ -117,6 +117,7 @@ TARGET_NO_RPC := true
 # Filesystem
 TARGET_ALLOW_LEGACY_AIDS := true
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+TARGET_USES_MKE2FS := true
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
