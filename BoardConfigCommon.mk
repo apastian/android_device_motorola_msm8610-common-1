@@ -82,6 +82,10 @@ TARGET_USES_MEDIA_EXTENSIONS := true
 TARGET_PROVIDES_CAMERA_HAL := true
 TARGET_NEEDS_LEGACY_CAMERA_HAL1_DYN_NATIVE_HANDLE := true
 
+TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
+    /system/bin/mediaserver=23 \
+      /system/vendor/bin/mm-qcamera-daemon=23
+
 # Charger
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/mmi_lpm/lpm_mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
