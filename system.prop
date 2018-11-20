@@ -14,6 +14,7 @@ persist.audio.fluence.speaker=false
 ro.config.vc_call_vol_steps=7
 ro.audio.fm_max_volume=2624
 tunnel.audio.encode = false
+audio.offload.video=false
 use.voice.path.for.pcm.voip=true
 
 persist.audio.calfile0=/etc/acdbdata/Bluetooth_cal.acdb
@@ -59,7 +60,7 @@ ro.gps.agps_provider=1
 # Media
 av.streaming.offload.enable=false
 mm.enable.smoothstreaming=true
-av.offload.enable=false
+audio.offload.disable=true
 ro.media.enc.aud.fileformat=amr
 ro.media.enc.aud.codec=amrnb
 
